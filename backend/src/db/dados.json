@@ -1,19 +1,21 @@
 {
-  "categorias": [
-    "BEBIDAS",
-    "LANCHES",
-    "PIZZAS",
-    "SOBREMESAS",
-    "OUTROS"
-  ],
+  "categorias": ["BEBIDAS", "LANCHES", "PIZZAS", "SOBREMESAS", "OUTROS"],
   "produtos": [
     {
-      "ID": "B002",
-      "NOME": "coca",
-      "DESCRICAO": "string",
+      "ID": "B001",
+      "NOME": "Coca-Cola Lata 350ml",
+      "DESCRICAO": "Refrigerante de cola, gelado.",
       "DESCONTO": 0,
-      "PRECO": 0.0,
-      "CATEGORIA": "string"
+      "PRECO": 5.5,
+      "CATEGORIA": "BEBIDAS"
+    },
+    {
+      "ID": "B002",
+      "NOME": "Suco de Laranja Natural 500ml",
+      "DESCRICAO": "Suco feito com laranjas frescas, sem adição de açúcar.",
+      "DESCONTO": 0,
+      "PRECO": 8.0,
+      "CATEGORIA": "BEBIDAS"
     },
     {
       "ID": "B003",
@@ -158,30 +160,6 @@
       "DESCONTO": 0,
       "PRECO": 22.0,
       "CATEGORIA": "OUTROS"
-    },
-    {
-      "NOME": "string",
-      "DESCRICAO": "string",
-      "PRECO": 0.0,
-      "DESCONTO": 0,
-      "CATEGORIA": "string",
-      "ID": "97de9eea-6090-4a61-86fa-aef2ae584001"
-    },
-    {
-      "NOME": "pao",
-      "DESCRICAO": "string",
-      "PRECO": 0.0,
-      "DESCONTO": 0,
-      "CATEGORIA": "string",
-      "ID": "aeac8c02-b5b1-47ee-83a7-16c82c436481"
-    },
-    {
-      "NOME": "salsicha",
-      "DESCRICAO": "string",
-      "PRECO": 0.0,
-      "DESCONTO": 0,
-      "CATEGORIA": "string",
-      "ID": "e7d5ed72-25cd-4927-8b73-44022fab3044"
     }
   ]
 }
